@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <object alt="" name="Image1" object_type="graphic"/>
+ <object alt="" name="Image2" object_type="graphic"/>
+ <object alt="" name="Image3" object_type="graphic"/>
+ <object alt="" name="Image4" object_type="graphic"/>
+ <object alt="" name="Image5" object_type="graphic"/>
+ <paragraph index="24" node_type="writer">Name:SONE BILLE MILTON
+Mat : FE22A297
+</paragraph>
+ <paragraph index="25" node_type="writer">Task : implementation of some symmetric ciphers </paragraph>
+ <paragraph index="27" node_type="writer">1- periodic cipher</paragraph>
+ <paragraph index="29" node_type="writer">The periodic Caesar Cipher is an extension of the standard Caesar Cipher, where the shift amount is not constant but varies based on the position of the character in the text. In this implementation, the shift amount is determined by the character's position in the text divided by the key length.</paragraph>
+ <paragraph index="31" node_type="writer">The `periodic_encrypt` function iterates through each character in the text. If the character is an alphabetic character, it calculates the new position in the alphabet by adding the current character's position in the text divided by the key length (modulo 26) to its original position in the alphabet. The new position is then used to replace the original character in the text. </paragraph>
+ <paragraph index="33" node_type="writer">Here is an implementation of the periodic cipher for both encryption and decryption .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2-cesar cipher 
+the program consist of three main functions : </paragraph>
+ <paragraph index="34" node_type="writer">i)encrypt (char* text,  int key ): This function takes a text and a key as input and shift each letter in </paragraph>
+ <paragraph index="35" node_type="writer">the text by the specified key positions. If the text contain uppercase letters, it shift them by adding the</paragraph>
+ <paragraph index="36" node_type="writer">key to their ASCII value and taking the modulus by 26 to wrap around the alphabet if the context contain lowercase letters, it perform the same operation but with the lowercase ASCII values .</paragraph>
+ <paragraph index="38" node_type="writer">Here is an implementation of the cesar cipher 
+
+</paragraph>
+ <paragraph index="39" node_type="writer">3- Vigenere cipher </paragraph>
+ <paragraph index="40" node_type="writer">The encryption process is performed in a loop that iterates through each character of the plaintext. For each character the program check if the is an alphanumeric character. If there is the program further checks if there is a lowercase letter, an uppercase letter, or a digits. Depending on the character type , the program shift it by the corresponding key value and wrap around the alphabet or the digit range . The shifted character is then stored back in the plaintext arrey.</paragraph>
+ <paragraph index="41" node_type="writer">The code is relatively straightforward and easy to understand 
+</paragraph>
+ <paragraph index="42" node_type="writer">Here is and implementation of the vigenere cipher 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4-Columnar cipher
+
+A columnar cipher is a type of transposition cipher where the plaintext is reordered according to a specific columnar arrangement before encryption. In columnar ciphers, the key determines the order in which the columns are read, and the columns are filled with plaintext characters row by row.</paragraph>
+ <paragraph index="43" node_type="writer">Here's how a columnar cipher typically works:</paragraph>
+ <paragraph index="44" node_type="writer">1. **Key Selection:** The key for the cipher is a permutation of integers or a keyword that determines the order of columns during encryption and decryption.</paragraph>
+ <paragraph index="45" node_type="writer">2. **Columnar Arrangement:** The plaintext message is written out horizontally in rows, and then read vertically to create columns based on the key. The length of each row may vary, but typically it's the length of the key.</paragraph>
+ <paragraph index="46" node_type="writer">3. **Encryption:** Once the plaintext is arranged in columns according to the key, the columns are read out in the order specified by the key to form the ciphertext.</paragraph>
+ <paragraph index="47" node_type="writer">4. **Decryption:** To decrypt the ciphertext, the process is reversed. The columns are read in the order specified by the key, and the resulting plaintext is reconstructed by reading horizontally row by row.</paragraph>
+ <paragraph index="48" node_type="writer">Columnar ciphers are relatively simple to implement and can provide some level of security through obfuscation of the plaintext. However, they are susceptible to cryptanalysis techniques such as frequency analysis, especially if the key length is short or the key selection method is predictable. Therefore, they are generally considered less secure than modern encryption algorithms such as block ciphers like AES. </paragraph>
+ <paragraph index="50" node_type="writer">Here is an implementation of a columnar cipher 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5-Substitution cipher 
+A substitution cipher is a method of encrypting plaintext by replacing each letter (or sometimes other characters) in the plaintext with another letter or symbol according to a fixed system. In a substitution cipher, the mapping between plaintext and ciphertext characters remains constant throughout the encryption and decryption process.</paragraph>
+ <paragraph index="52" node_type="writer">There are several types of substitution ciphers, including:</paragraph>
+ <paragraph index="54" node_type="writer">1. **Caesar Cipher:** In a Caesar cipher, each letter in the plaintext is shifted a fixed number of positions down or up the alphabet. For example, with a shift of 3, 'A' would be replaced by 'D', 'B' by 'E', and so on.</paragraph>
+ <paragraph index="56" node_type="writer">2. **Monoalphabetic Substitution Cipher:** In a monoalphabetic substitution cipher, each letter in the plaintext is replaced by a corresponding letter from a fixed substitution alphabet. The substitution alphabet remains constant throughout the encryption and decryption process.</paragraph>
+ <paragraph index="58" node_type="writer">3. **Polyalphabetic Substitution Cipher:** In a polyalphabetic substitution cipher, multiple substitution alphabets are used, with the choice of alphabet determined by a key or other parameter. The Vigenère cipher is a well-known example of a polyalphabetic substitution cipher.</paragraph>
+ <paragraph index="60" node_type="writer">4. **Homophonic Substitution Cipher:** In a homophonic substitution cipher, multiple ciphertext symbols may represent a single plaintext symbol, adding variability to the encryption process and making frequency analysis more difficult.</paragraph>
+ <paragraph index="62" node_type="writer">Substitution ciphers are relatively simple to implement and understand, but they are vulnerable to cryptanalysis techniques such as frequency analysis, where the frequency of letters or symbols in the ciphertext is analyzed to infer the original plaintext. Therefore, substitution ciphers are generally considered less secure than modern encryption techniques such as block ciphers and stream ciphers.</paragraph>
+ <paragraph index="64" node_type="writer">
+</paragraph>
+</indexing>

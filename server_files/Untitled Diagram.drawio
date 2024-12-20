@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net" modified="2024-05-14T16:02:46.799Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="24vPLAFrU2kpI3MGLqHq" version="24.3.1" type="device">
+  <diagram name="Page-1" id="-D_NWYiOotiKDT_LhNer">
+    <mxGraphModel dx="1370" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FhkU0Bw2MBxrSiQvcxgC-1" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="270" y="360" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FhkU0Bw2MBxrSiQvcxgC-2" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="240" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
